@@ -107,7 +107,7 @@ var function_loop_mouse_enter = function(){
      			}
      		}       			
 			if (start_swipe + threshold< end_swipe ){
-				function_minus(event.target.games);				
+				function_minus();				
 			}
 			if (start_swipe > end_swipe + threshold){
 				alert('swipe left');
