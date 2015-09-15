@@ -7,8 +7,11 @@
 
 ##Todo
 * Add touchstart event for mobile tap
-* Change the load state for the `Add Item` to have the background state.
+* <s>Change the load state for the `Add Item` to have the background state.</s>
 * <s>Remove all logic from html</s>
+* mouse out on list to hide minus#Eric
+* touchstart>tap>near minus>hide minus
+* style>readable background>Dark/light text>oam display>light/dark text.
 * Check if game is already in the list
 #Roger 
 * touchstart > touchswipe
