@@ -107,7 +107,9 @@ var function_loop_mouse_enter = function(){
      			}
      		}       			
 			if (start_swipe + threshold< end_swipe ){
-				make_minus();			
+				for (var i = 0; i <= games.length; i++){
+				delete.getElementsByClassName('game_list_item')[i];			
+				}
 			}
 			if (start_swipe > end_swipe + threshold){
 				alert('swipe left');
