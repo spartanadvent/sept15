@@ -24,7 +24,7 @@ document.getElementById("name_input_box").addEventListener('keydown', function k
         if(event.keyCode == 13) {
             document.getElementById('add_submit_button').click();
        
-    };
+    }
 });
 
 
@@ -46,13 +46,4 @@ game_unordered_list.addEventListener('mouseleave', function(){
 });
 
 
-add_mobile_event_listners('li');
 
-/*game_unordered_list.addEventListener('mouseenter', function(){
-	
-    	get_index();    
-    	make_minus(); 
-    	function_minus(); 
-	});
-
-*/
